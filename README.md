@@ -1,4 +1,4 @@
-# zce-pages
+# fun-pages
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ yarn add zce-pages
+$ yarn add fun-pages
 
 # or npm
-$ npm install zce-pages
+$ npm install fun-pages
 ```
 
 ## Usage
@@ -23,16 +23,16 @@ $ npm install zce-pages
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const zcePages = require('zce-pages')
-const result = zcePages('zce')
-// result => 'zce@zce.me'
+const funPages = require('fun-pages')
+const result = funPages('fun')
+// result => 'fun@fun.me'
 ```
 
 ## API
 
 <!-- TODO: Introduction of API -->
 
-### zcePages(name[, options])
+### funPages(name[, options])
 
 #### name
 
@@ -45,7 +45,7 @@ const result = zcePages('zce')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
+- Default: `'fun.me'`
 
 ## Contributing
 
@@ -60,19 +60,19 @@ const result = zcePages('zce')
 
 ## License
 
-[MIT](LICENSE) &copy; zce <w@zce.me> (https://zce.me)
+[MIT](LICENSE) &copy; fun <w@fun.me> (https://fun.me)
 
 
 
-[downloads-image]: https://img.shields.io/npm/dm/zce-pages.svg
-[downloads-url]: https://npmjs.org/package/zce-pages
-[version-image]: https://img.shields.io/npm/v/zce-pages.svg
-[version-url]: https://npmjs.org/package/zce-pages
-[license-image]: https://img.shields.io/github/license/zce/zce-pages.svg
-[license-url]: https://github.com/zce/zce-pages/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/zce-pages.svg
-[dependency-url]: https://david-dm.org/zce/zce-pages
-[devdependency-image]: https://img.shields.io/david/dev/zce/zce-pages.svg
-[devdependency-url]: https://david-dm.org/zce/zce-pages?type=dev
+[downloads-image]: https://img.shields.io/npm/dm/fun-pages.svg
+[downloads-url]: https://npmjs.org/package/fun-pages
+[version-image]: https://img.shields.io/npm/v/fun-pages.svg
+[version-url]: https://npmjs.org/package/fun-pages
+[license-image]: https://img.shields.io/github/license/fun/fun-pages.svg
+[license-url]: https://github.com/fun/fun-pages/blob/master/LICENSE
+[dependency-image]: https://img.shields.io/david/fun/fun-pages.svg
+[dependency-url]: https://david-dm.org/fun/fun-pages
+[devdependency-image]: https://img.shields.io/david/dev/fun/fun-pages.svg
+[devdependency-url]: https://david-dm.org/fun/fun-pages?type=dev
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com
